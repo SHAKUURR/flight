@@ -171,7 +171,7 @@ const handleclick = function (e) {
 
 proceed.addEventListener("click", handleclick);
 close.addEventListener("click", closeModal);
-// overlay.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
