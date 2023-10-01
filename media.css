@@ -273,12 +273,28 @@
     align-items: center;
   }
 
+  .mission img {
+    width: 5rem;
+  }
+
+  .mission h3 {
+    font-size: 2.2rem;
+  }
+
+  .mission p {
+    font-size: 1.4rem;
+  }
+
   .mission {
     width: 100%;
   }
 
   .mission:not(:last-child) {
     margin-bottom: 3rem;
+  }
+
+  .help p {
+    width: 1.6rem;
   }
 }
 
