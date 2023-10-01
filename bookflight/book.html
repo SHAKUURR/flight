@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="book.css">
+    <script src="https://kit.fontawesome.com/f698b33fa3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <title>KJM AIRLINE</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-section">
+        <div class="logo-box">
+          <a href="#"><img src="/img/logo.png" alt="KJM" class="logo"></a>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Book-flight</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+        </ul>
+
+        <div id="menu-icon" class="nav-link">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="book-box">
+          <div class="book">
+            <img src="/img/jet.png" alt="globe">
+            <p>Private Jet Booking</p>
+          </div>
+          <div class="book">
+            <img src="/img/jet.png" alt="globe">
+            <p>Helicopter Booking</p>
+          </div>
+          <div class="book">
+            <img src="
+            /img/jet.png" alt="globe">
+            <p>First Class Booking</p>
+          </div>
+        </div>
+        <div class="heading-box">
+          <img src="
+          /img/plane.png" alt="AIRLINE">
+          <h1>FLY</h1>
+          <p>SMARTER</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature">
+            <p>Advanced features</p>
+          </div>
+          <div class="feature">
+            <p>Fast and Easy browsing</p>
+          </div>
+          <div class="feature">
+            <p>Friendly and Timely</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="flight">
+      <div class="focus">
+        <div class="focus-text">
+          <p>We focused on providing world class aviation services to our esteemed customers.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flight">
+        <h2>Welcome, Kindly Submit Correct Information</h2>
+        <form action="" class="flight-form">
+          <div class="flying-box">
+            <div class="flying">
+              <label for="name">First Name</label>
+              <input type="text" placeholder="Enter first name" id="name">
+            </div>
+            <div class="flying">
+              <label for="surname">Surname</label>
+              <input type="text" id="surname" placeholder="Surname">
+            </div>
+          </div>
+          <div class="flying-box">
+            <div class="flying">
+              <label for="email">Email</label>
+              <input type="email" placeholder="Email address" id="email">
+            </div>
+            <div class="flying">
+              <label for="address">Home Address</label>
+              <input type="text" id="address" placeholder="Home address">
+            </div>
+          </div>
+          <div class="flying-box">
+            <div class="flying">
+              <label for="from">Flying From</label>
+              <select name="from" id="from">
+                <option value="">From</option>
+              </select>
+            </div>
+            <div class="flying">
+              <label for="flyto">Flying To</label>
+              <input type="text" id="flyto">
+            </div>
+          </div>
+          <div class="flying-box">
+            <div class="flying">
+              <label for="departure">Departure Date</label>
+              <input type="date" id="departure">
+            </div>
+            <div class="flying">
+              <label for="return">Return Date</label>
+              <input type="date" id="return">
+            </div>
+          </div>
+          <div class="choice-container">
+            <h4>Click your Choice</h4>
+            <div class="choice-boxes">
+              <div class="choice-box">
+                <div class="choice">
+                  <h5>Economy</h5>
+                  <p class="price">$560</p>
+                </div>
+                <div class="amount"></div>
+              </div>
+              <div class="choice-box">
+                <div class="choice">
+                  <h5>Private Jet</h5>
+                  <p class="price">$17,030</p>
+                </div>
+                <div class="amount"></div>
+              </div>
+              <div class="choice-box">
+                <div class="choice">
+                  <h5>Helicopter</h5>
+                  <p class="price">$10,090</p>
+                </div>
+                <div class="amount"></div>
+              </div>
+            </div>
+          </div>
+          <button class="proceed">PROCEED TO PAYMENT</button>
+        </form>
+
+      </div>
+    </section>
+    <div class="modal hidden">
+      <button class="close">&times;</button>
+      <img src="/img/logo.png" alt="">
+      <h2>PAYMENT INFORMATION</h2>
+      <div class="mailbox">
+        <h3>JOHN SMITH</h3>
+        <p class="modal-email">johnsmith@gmail.com</p>
+      </div>
+      <div class="transaction-box">
+        <div class="transactions">
+          <h4>Transaction Reference</h4>
+          <p>8758346653748859</p>
+        </div>
+        <div class="transactions">
+          <h4>Transaction Amount</h4>
+          <p>$560</p>
+        </div>
+        <div class="transactions">
+          <h4>Payment Method</h4>
+          <p>BTC</p>
+        </div>
+        <div class="transactions">
+          <h4>Date</h4>
+          <p class="modal-date">29-10-2023</p>
+        </div>
+        <div class="transactions">
+          <h4>Service Details</h4>
+          <p>Flight Ticket</p>
+        </div>
+        <h5>FLIGHT INFORMATION</h5>
+        <div class="transactions">
+          <h4>Booking Ref</h4>
+          <p>45434556</p>
+        </div>
+        <div class="transactions">
+          <h4>Passenger Number</h4>
+          <p>0095</p>
+        </div>
+      </div>
+      <p class="note">please send a screenshot/camera shot of your receipt to our mail <a
+          href="#">kjmairlines@gmail.com</a> for
+        internal
+        authentication</p>
+    </div>
+    <div class="overlay hidden"></div>
+    <footer>
+      <div class="footer">
+        <div class="contact">
+          <h2>Contact Us</h2>
+          <p>1442, Cadastral zone
+            Hiltop, Western Drive,
+            Alabama United State.</p>
+          <a href="#">customercare@kjm.com</a>
+        </div>
+        <ul>
+          <h2>Destination</h2>
+          <li>Texas</li>
+          <li>Alabama</li>
+          <li>New york</li>
+          <li>Ohio</li>
+          <li>and lots more</li>
+        </ul>
+        <ul>
+          <h2>Quick Link</h2>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Refund</a></li>
+          <li><a href="#">Cancel Trip</a></li>
+          <li><a href="#">Terms and Condition</a></li>
+        </ul>
+      </div>
+      <div class="copy">
+        <p>Copy Right 2023 @KJMairways</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/index.js"></script>
+    <script src="book.js"></script>
+  </body>
+</html>
