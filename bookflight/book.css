@@ -188,9 +188,17 @@
   cursor: pointer;
 }
 
-.modal img {
+.modal-img {
   width: 25rem;
   padding: 2rem 3rem;
+}
+
+.scan {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  width: 20rem;
+  z-index: -1rem;
 }
 
 .modal h2 {
