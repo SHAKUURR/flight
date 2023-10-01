@@ -211,7 +211,7 @@ nav::before {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  letter-spacing: 5.535rem;
+
   margin-left: 20rem;
 }
 
@@ -268,6 +268,60 @@ nav::before {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.mission {
+  width: 30%;
+
+}
+
+.mission h3 {
+  color: #F00;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.mission p {
+  color: #000;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.help h2 {
+  color: #F00;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.help p {
+  color: #000;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 173.023%;
+  /* 4.1525rem */
+}
+
+.help p span {
+  color: #F00;
 }
 
 .trip h2 {
@@ -341,4 +395,20 @@ nav::before {
   letter-spacing: 1.72rem;
   margin-top: 6rem;
   text-align: center;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+  font-size: 2.2rem;
+}
+
+div:where(.swal2-container) .swal2-html-container {
+  font-size: 1.3rem;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #F00;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: 45em !important;
 }
