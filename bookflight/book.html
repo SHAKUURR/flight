@@ -19,7 +19,7 @@
           <a href="#"><img src="/img/logo.png" alt="KJM" class="logo"></a>
         </div>
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+          <li class="nav-item"><a href="/index.html" class="nav-link">Explore</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Book-flight</a>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
@@ -30,7 +30,7 @@
           <i class="fa-solid fa-bars fa-lg"></i>
         </div>
       </nav>
-      <div class="hero">
+      <!-- <div class="hero">
         <div class="book-box">
           <div class="book">
             <img src="/img/jet.png" alt="globe">
@@ -63,15 +63,15 @@
             <p>Friendly and Timely</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </header>
-    <section id="flight">
+    <!-- <section id="flight">
       <div class="focus">
         <div class="focus-text">
           <p>We focused on providing world class aviation services to our esteemed customers.</p>
         </div>
       </div>
-    </section>
+    </section> -->
     <section>
       <div class="flight">
         <h2>Welcome, Kindly Submit Correct Information</h2>
@@ -79,21 +79,21 @@
           <div class="flying-box">
             <div class="flying">
               <label for="name">First Name</label>
-              <input type="text" placeholder="Enter first name" id="name">
+              <input type="text" placeholder="Enter first name" id="name" required>
             </div>
             <div class="flying">
               <label for="surname">Surname</label>
-              <input type="text" id="surname" placeholder="Surname">
+              <input type="text" id="surname" placeholder="Surname" required>
             </div>
           </div>
           <div class="flying-box">
             <div class="flying">
               <label for="email">Email</label>
-              <input type="email" placeholder="Email address" id="email">
+              <input type="email" placeholder="Email address" id="email" required>
             </div>
             <div class="flying">
               <label for="address">Home Address</label>
-              <input type="text" id="address" placeholder="Home address">
+              <input type="text" id="address" placeholder="Home address" required>
             </div>
           </div>
           <div class="flying-box">
@@ -111,11 +111,11 @@
           <div class="flying-box">
             <div class="flying">
               <label for="departure">Departure Date</label>
-              <input type="date" id="departure">
+              <input type="date" id="departure" required>
             </div>
             <div class="flying">
               <label for="return">Return Date</label>
-              <input type="date" id="return">
+              <input type="date" id="return" required>
             </div>
           </div>
           <div class="choice-container">
@@ -154,7 +154,7 @@
       <img src="/img/logo.png" alt="">
       <h2>PAYMENT INFORMATION</h2>
       <div class="mailbox">
-        <h3>JOHN SMITH</h3>
+        <h3 class="modal-name">JOHN SMITH</h3>
         <p class="modal-email">johnsmith@gmail.com</p>
       </div>
       <div class="transaction-box">
@@ -164,7 +164,7 @@
         </div>
         <div class="transactions">
           <h4>Transaction Amount</h4>
-          <p>$560</p>
+          <p class="modal-price">$560</p>
         </div>
         <div class="transactions">
           <h4>Payment Method</h4>
