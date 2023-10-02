@@ -21,3 +21,21 @@ menu.forEach((element) => {
 		icon.classList.toggle("active");
 	});
 });
+
+const explore = document.querySelector(".explore");
+const closet = document.querySelector(".closet");
+const omalay = document.querySelector(".omalay");
+const explorer = document.querySelector(".explorer");
+
+explorer.addEventListener("click", function () {
+	explore.classList.remove("hidden");
+	omalay.classList.remove("hidden");
+});
+
+const closeModality = function () {
+	explore.classList.add("hidden");
+	omalay.classList.add("hidden");
+};
+
+closet.addEventListener("click", closeModality);
+omalay.addEventListener("click", closeModality);
