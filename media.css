@@ -299,6 +299,9 @@
 
   .explore {
     width: 80%;
+    min-height: auto;
+    height: 280px;
+    overflow-y: scroll
   }
 }
 
