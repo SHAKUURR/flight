@@ -8,7 +8,7 @@
 }
 
 .flight h2 {
-  background-color: #F00;
+  background-color: #0038FF;
   color: #fff;
   font-size: 3.2rem;
   font-style: normal;
@@ -62,10 +62,10 @@
 }
 
 .proceed {
-  background-color: #F00;
+  background-color: #0038FF;
   color: #fff;
   padding: 1.5rem 0rem 1.4rem 0rem;
-  border: 1px solid #F00;
+  border: 1px solid #0038FF;
   color: #FFF;
   font-size: 3rem;
   font-style: normal;
@@ -120,13 +120,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background-color: #F00;
+  background-color: #0038FF;
   padding: .5rem 1rem;
   text-align: center;
 }
 
 .choice p {
-  color: #F00;
+  color: #0038FF;
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -145,8 +145,8 @@
   width: 12.2rem;
   height: 4rem;
   border-radius: 2rem;
-  border: 1px solid #F00;
-  background: #F00;
+  border: 1px solid #0038FF;
+  background: #0038FF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -269,7 +269,7 @@
 
 .note {
   margin-top: 4rem;
-  background-color: #F00;
+  background-color: #0038FF;
   color: #fff;
   font-size: 1.3rem;
   font-style: normal;
